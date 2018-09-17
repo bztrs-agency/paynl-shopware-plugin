@@ -14,8 +14,6 @@ use Shopware\Components\Plugin\Context\InstallContext;
 use Shopware\Components\Plugin\Context\UninstallContext;
 use Shopware\Components\Plugin\Context\UpdateContext;
 
-require_once(__DIR__ . '/vendor/autoload.php');
-
 class PaynlPayment extends Plugin
 {
     public function install(InstallContext $context)
